@@ -42,6 +42,7 @@ namespace Conditional_Statements
                  */
                  if (sales < 1000)
                 {
+                    //Example Comment
                     bonus += .05m * sales;
                     Console.WriteLine("Your 5% bonus for the Sales Amount " + String.Format("{0:C}",sales) + " is: " + String.Format("{0:C}", bonus));
                     // Now get the number of years the user has been in sales
